@@ -1,0 +1,5 @@
+[user]
+	name = Your Real Name
+	email = your-github-email@example.com
+[credential]
+	helper = store

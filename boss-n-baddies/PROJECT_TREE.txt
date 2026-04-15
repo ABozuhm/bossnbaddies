@@ -1,0 +1,64 @@
+boss-n-baddies/
+│
+├── app/
+│   ├── layout.tsx
+│   ├── page.tsx
+│
+│   ├── baddest/
+│   │   └── page.tsx
+│
+│   ├── bossdup/
+│   │   └── page.tsx
+│
+│   ├── ai-boo/
+│   │   └── page.tsx
+│
+│   ├── api/
+│   │   ├── velora/
+│   │   │   └── route.ts
+│   │   │
+│   │   └── vote/
+│   │       └── route.ts
+│
+├── components/
+│   ├── ContestCard.tsx
+│   ├── SwipeDeck.tsx
+│   ├── GiftBar.tsx
+│   ├── Leaderboard.tsx
+│   ├── VeloraAvatar.tsx
+│   ├── VeloraVoice.tsx
+│   └── Sidebar.tsx
+│
+├── lib/
+│   ├── api.ts
+│   └── rateLimit.ts
+│
+├── store/
+│   ├── userStore.ts
+│   └── voteStore.ts
+│
+├── server/
+│   ├── index.ts
+│   └── socket.ts
+│
+├── prisma/
+│   ├── schema.prisma
+│   └── migrations/
+│
+├── public/
+│   ├── velora-walk-left.mp4
+│   ├── velora-walk-right.mp4
+│   ├── velora-walk-urgently.mp4
+│   ├── velora-assist.mp4
+│   │
+│   ├── choice2-keisha.png
+│   ├── choice3-tasha.png
+│   ├── male1.png
+│   │
+│   └── favicon.ico
+│
+├── .env.local
+├── next.config.js
+├── tsconfig.json
+├── package.json
+└── README.md

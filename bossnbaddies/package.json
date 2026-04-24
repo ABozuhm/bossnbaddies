@@ -1,0 +1,22 @@
+{
+  "name": "bossnbaddies-engine",
+  "version": "1.1.0",
+  "description": "AI Revenue & Avatar Engine",
+  "main": "src/server.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.31.0",
+    "axios": "^1.6.0",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.0",
+    "express": "^4.19.0",
+    "path": "^0.12.7"
+  }
+}
